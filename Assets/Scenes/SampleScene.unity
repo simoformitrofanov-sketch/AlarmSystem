@@ -709,6 +709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 957842153}
+  - component: {fileID: 957842154}
   m_Layer: 0
   m_Name: House
   m_TagString: Untagged
@@ -738,6 +739,20 @@ Transform:
   - {fileID: 1842324560}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &957842154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957842152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4d95feb3d97d24aaa3602eb8c7585a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _zone: {fileID: 1842324563}
+  _alarm: {fileID: 1842324562}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1284,7 +1299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b5196169b57b0f4c8f91b33b00f5a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _zone: {fileID: 1842324563}
   _maxVolume: 1
   _fadeSpeed: 0.5
 --- !u!114 &1842324563
